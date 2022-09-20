@@ -19,3 +19,10 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 &emsp; - Tailwind css<br>
 &emsp; - syncfusion charts<br>
 
+# Running the project
+&emsp; Pre-requisites : npm & node.js<br>
+&emsp; To run type execute the following commands :<br>
+&emsp;&emsp;&emsp; git clone<br>
+&emsp;&emsp;&emsp; cd  {location of the cloned repo}
+&emsp;&emsp;&emsp; npm install
+&emsp;&emsp;&emsp; npm start
