@@ -15,8 +15,7 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 &emsp;- Analysis using various types of graphs & metrics
 
 # Technologies used<br>
-&emsp; - React.Js
-&emsp; - Tailwind css
-&emsp; - syncfusion charts
-
+&emsp; - React.Js<br>
+&emsp; - Tailwind css<br>
+&emsp; - syncfusion charts<br>
 
