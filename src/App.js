@@ -7,7 +7,6 @@ import { Footer, Sidebar, ThemeSettings } from "./components";
 import {
   Ecommerce,
   Orders,
-  Employees,
   Stacked,
   Pyramid,
   Customers,
@@ -15,7 +14,6 @@ import {
   Area,
   Bar,
   Pie,
-  Financial,
   ColorMapping,
   Editor,
 } from "./pages";
@@ -85,8 +83,6 @@ const App = () => {
                 <Route path="/ecommerce" element={<Ecommerce />} />
 
                 {/* pages  */}
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
