@@ -439,7 +439,7 @@ export const links = [
         icon: <FiShoppingBag />,
       },
       {
-        name: "editor",
+        name: "convert",
         icon: <FiEdit />,
       },
       {

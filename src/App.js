@@ -80,13 +80,13 @@ const App = () => {
               <Routes>
                 {/* dashboard  */}
                 <Route path="/" element={<Ecommerce />} />
-                <Route path="/ecommerce" element={<Ecommerce />} />
+                <Route path="/homepage" element={<Ecommerce />} />
 
                 {/* pages  */}
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
-                <Route path="/editor" element={<Editor />} />
+                <Route path="/convert" element={<Editor />} />
 
                 {/* charts  */}
                 <Route path="/line" element={<Line />} />
