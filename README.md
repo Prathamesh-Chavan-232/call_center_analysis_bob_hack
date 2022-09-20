@@ -22,9 +22,13 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 # Running the project
 &emsp; Pre-requisites : npm & node.js<br>
 &emsp; To run type execute the following commands :<br>
-&emsp;&emsp;&emsp; git clone {repo link}<br>
-&emsp;&emsp;&emsp; cd  {location of the cloned repo}<br>
+### `git clone {repo link}`<br>
+&emsp;&emsp;&emsp; Clone this repository
+### `cd  {location of the cloned repo}/Code<br>`
+&emsp;&emsp;&emsp; navigate to the code
 &emsp;&emsp;&emsp; npm install<br>
+&emsp;&emsp;&emsp; Installs all the dependies & node-modules\ 
+&emsp;&emsp;&emsp; required for the project (IMP)
 ### `npm start`
 &emsp;&emsp;&emsp;Runs the app in the development mode.\
 &emsp;&emsp;&emsp;Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
