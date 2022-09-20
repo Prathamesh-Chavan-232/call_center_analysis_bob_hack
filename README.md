@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 &emsp;- Sentiment analysis from the call center recordings<br>
 &emsp;- Centralized dashboard for Bank to understand different KPIs for customer satisfaction<br>
 &emsp;- Provide better analytics on the call center queries and questions<br>
-&emspl- Analysis using various types of graphs & metrics
+&emsp;- Analysis using various types of graphs & metrics
 
 Technologies used<br>
 &emsp; - React.Js
