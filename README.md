@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 ### `git clone {repo link}`<br>
 &emsp;&emsp;&emsp; Clone this repository
 ### `cd  {location of the cloned repo}/Code<br>`
-&emsp;&emsp;&emsp; navigate to the code
+&emsp;&emsp;&emsp; Navigate to the code
 ### `npm install`
 &emsp;&emsp;&emsp; Installs all the dependies & node-modules<br>
 &emsp;&emsp;&emsp; required for the project (IMP)
