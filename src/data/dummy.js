@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  AiOutlineCalendar,
-  AiOutlineShoppingCart,
   AiOutlineAreaChart,
   AiOutlineBarChart,
   AiOutlineStock,
@@ -19,63 +17,11 @@ import { MdOutlineSupervisorAccount } from "react-icons/md";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
-import { GrLocation } from "react-icons/gr";
 import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
 import avatar3 from "./avatar3.png";
 import avatar4 from "./avatar4.jpg";
 
-export const gridOrderImage = (props) => (
-  <div>
-    <img
-      className="rounded-xl h-20 md:ml-3"
-      src={props.ProductImage}
-      alt="order-item"
-    />
-  </div>
-);
-
-export const gridOrderStatus = (props) => (
-  <button
-    type="button"
-    style={{ background: props.StatusBg }}
-    className="text-white py-1 px-2 capitalize rounded-2xl text-md"
-  >
-    {props.Status}
-  </button>
-);
-
-export const kanbanGrid = [
-  { headerText: "To Do", keyField: "Open", allowToggle: true },
-
-  { headerText: "In Progress", keyField: "InProgress", allowToggle: true },
-
-  {
-    headerText: "Testing",
-    keyField: "Testing",
-    allowToggle: true,
-    isExpanded: false,
-  },
-
-  { headerText: "Done", keyField: "Close", allowToggle: true },
-];
-const gridEmployeeProfile = (props) => (
-  <div className="flex items-center gap-2">
-    <img
-      className="rounded-full w-10 h-10"
-      src={props.EmployeeImage}
-      alt="employee"
-    />
-    <p>{props.Name}</p>
-  </div>
-);
-
-const gridEmployeeCountry = (props) => (
-  <div className="flex items-center justify-center gap-2">
-    <GrLocation />
-    <span>{props.Country}</span>
-  </div>
-);
 export const EditorData = () => (
   <div>
     <h3>
@@ -219,7 +165,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[2],
     xName: "x",
     yName: "y",
-    name: "Germany",
+    name: "India",
     opacity: "0.8",
     type: "SplineArea",
     width: "2",
@@ -228,7 +174,7 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: "USA", y: 46 },
+    { x: "USA", y: 49 },
     { x: "GBR", y: 27 },
     { x: "CHN", y: 26 },
   ],
@@ -249,7 +195,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: "x",
     yName: "y",
-    name: "Gold",
+    name: "Department 1",
     type: "Column",
     marker: {
       dataLabel: {
@@ -263,7 +209,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: "x",
     yName: "y",
-    name: "Silver",
+    name: "Department 2",
     type: "Column",
     marker: {
       dataLabel: {
@@ -277,7 +223,7 @@ export const barCustomSeries = [
     dataSource: barChartData[2],
     xName: "x",
     yName: "y",
-    name: "Bronze",
+    name: "Department 3",
     type: "Column",
     marker: {
       dataLabel: {
@@ -466,10 +412,6 @@ export const links = [
       {
         name: "pie",
         icon: <FiPieChart />,
-      },
-      {
-        name: "pyramid",
-        icon: <GiLouvrePyramid />,
       },
       {
         name: "stacked",
@@ -662,56 +604,6 @@ export const userProfileData = [
     desc: "To-do and Daily Tasks",
     iconColor: "rgb(255, 244, 229)",
     iconBg: "rgb(254, 201, 15)",
-  },
-];
-
-export const ordersGrid = [
-  {
-    headerText: "Image",
-    template: gridOrderImage,
-    textAlign: "Center",
-    width: "120",
-  },
-  {
-    field: "OrderItems",
-    headerText: "Item",
-    width: "150",
-    editType: "dropdownedit",
-    textAlign: "Center",
-  },
-  {
-    field: "CustomerName",
-    headerText: "Customer Name",
-    width: "150",
-    textAlign: "Center",
-  },
-  {
-    field: "TotalAmount",
-    headerText: "Total Amount",
-    format: "C2",
-    textAlign: "Center",
-    editType: "numericedit",
-    width: "150",
-  },
-  {
-    headerText: "Status",
-    template: gridOrderStatus,
-    field: "OrderItems",
-    textAlign: "Center",
-    width: "120",
-  },
-  {
-    field: "OrderID",
-    headerText: "Order ID",
-    width: "120",
-    textAlign: "Center",
-  },
-
-  {
-    field: "Location",
-    headerText: "Location",
-    width: "150",
-    textAlign: "Center",
   },
 ];
 
@@ -1100,10 +992,10 @@ export const lineCustomSeries = [
 ];
 
 export const pieChartData = [
-  { x: "Labour", y: 18, text: "18%" },
-  { x: "Legal", y: 8, text: "8%" },
-  { x: "Production", y: 15, text: "15%" },
-  { x: "License", y: 11, text: "11%" },
+  { x: "Account details", y: 18, text: "18%" },
+  { x: "Bank statement", y: 8, text: "8%" },
+  { x: "Change Info", y: 15, text: "15%" },
+  { x: "Online banking", y: 11, text: "11%" },
   { x: "Facilities", y: 18, text: "18%" },
   { x: "Taxes", y: 14, text: "14%" },
   { x: "Insurance", y: 16, text: "16%" },
@@ -1161,7 +1053,7 @@ export const stackedCustomSeries = [
     dataSource: stackedChartData[0],
     xName: "x",
     yName: "y",
-    name: "Budget",
+    name: "Complaints solved",
     type: "StackingColumn",
     background: "blue",
   },
@@ -1170,7 +1062,7 @@ export const stackedCustomSeries = [
     dataSource: stackedChartData[1],
     xName: "x",
     yName: "y",
-    name: "Expense",
+    name: "Complaints Filed",
     type: "StackingColumn",
     background: "red",
   },

@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-
+import { Convert } from "./pages/Convert";
 import { Footer, Sidebar, ThemeSettings } from "./components";
 import {
-  Ecommerce,
-  Orders,
+  Homepage,
   Stacked,
   Pyramid,
   Customers,
@@ -15,7 +14,6 @@ import {
   Bar,
   Pie,
   ColorMapping,
-  Editor,
 } from "./pages";
 import "./App.css";
 
@@ -79,14 +77,14 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={<Ecommerce />} />
-                <Route path="/homepage" element={<Ecommerce />} />
+                <Route path="/" element={<Homepage />} />
+                <Route path="/homepage" element={<Homepage />} />
 
                 {/* pages  */}
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
-                <Route path="/convert" element={<Editor />} />
+                <Route path="/convert" element={<Convert />} />
 
                 {/* charts  */}
                 <Route path="/line" element={<Line />} />
@@ -94,7 +92,6 @@ const App = () => {
                 <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
-                <Route path="/pyramid" element={<Pyramid />} />
                 <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>

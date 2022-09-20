@@ -12,7 +12,7 @@ import {
 import { Header } from "../components";
 import { EditorData } from "../data/dummy";
 
-const Editor = () => (
+export const Convert = () => (
   <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
     <Header category="App" title="Speech to Text Converter" />
     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-4">
@@ -24,4 +24,3 @@ const Editor = () => (
     </RichTextEditorComponent>
   </div>
 );
-export default Editor;
