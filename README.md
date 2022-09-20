@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/86522183/191300278-94b28a57-3bc4-4eda-
 &emsp;&emsp;&emsp; Navigate to the code
 ### `npm install`
 &emsp;&emsp;&emsp; Installs all the dependies & node-modules<br>
-&emsp;&emsp;&emsp; required for the project (IMP)
+&emsp;&emsp;&emsp; required for the project **(IMP)**
 ### `npm start`
 &emsp;&emsp;&emsp;Runs the app in the development mode.\
 &emsp;&emsp;&emsp;Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
